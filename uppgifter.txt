@@ -1,0 +1,66 @@
+Alla övningar kräver en eller flera inputs. Kom ihåg att input kan tas in som strängar, så om
+inputten skall vara i nummer format så får du parsa om strängen till ett nummer.
+
+1. Skriv ett program som tar in en temperatur (nummer) och skriver ut en rekommendation på
+hur man bör klä sig för att vara utomhus.
+Input variabler: temperatur (nummer)
+Output: Rekommendation på kläder
+
+2. Skriv ett program som innehåller en hårdkodad array med text. Fyll arrayen med något
+valfritt. Programmet tar in en text och skriver ut om arrayen innehåller inputten. Om arrayen
+innehåller texten skall programmet också skriva ut vilket index den ligger på.
+Input variabler: text (sträng)
+Output: Ja eller nej beroende på om inputten finns eller inte plus index om den finns
+
+3. Skriv ett program som kollar om en sträng är en palindrom.
+Input variabler: text (sträng)
+Output: Ja eller nej beroende på om inputten är en palindrom eller inte
+
+4. Skriv ett program som räknar ut hur många ord en text innehåller. Ett ord definieras som en
+del text som är separerad med mellanslag.
+Input variabler: text (sträng)
+Output: Antal ord i inputten
+
+5. Skriv ett program som kan hantera addition och subtraktion mellan två tal. Man väljer i
+början av programmet om man vill göra addition eller subtraktion.
+Input variabler: operation (valfritt), tal 1 (nummer), tal 2 (nummer)
+Output: Svaret om man utför operationen på de två input talen
+
+6. Skriv ett program som räknar ut om ett visst tal är ett primtal eller inte.
+Input variabler: nummer (nummer)
+Output: Ja eller nej beroende på om inputten är ett primtal eller inte
+
+7. Skriv ett program som räknar ut hur mycket pengar man kommer ha efter ett visst antal år
+om startsumman ökar med en viss procent varje år.
+Input variabler: antal år (nummer), start summa (nummer), procent (nummer)
+Output: Antal pengar efter ett visst antal år
+
+8. Skriv ett program som kan räkna ut följande tre saker. Man väljer i början vilka operation
+man vill göra.
+• Omkrets på cirkel. Input variabler: radie (nummer)
+• Area på cirkel. Input variabler: radie (nummer)
+• Sida på triangel (3:e av 2 angivna och rätvinklig). Input variabler: sida 1 (nummer), sida 2
+(nummer)
+• Area på rektangel. Input variabler: sida a (nummer), sida b (nummer)
+
+9. Skriv ett program som tar in en lista på alla gånger man handlat på en viss månad. Ta först in
+hur många gånger man handlat och sedan ett nummer per köp med kostnaden. Räkna sedan
+ut den totala kostnaden.
+Input variabler: antal köp (nummer), kostnad per köp (ett nummer per köp)
+Output: Totala kostnaden för alla köp
+
+10. Skriv ett program som tar in ett visst antal nummer och räknar ut medelvärdet.
+Input variabler: antal nummer (nummer), nummer (ett nummer per antal)
+Output: Medelvärdet av alla input nummer
+
+11. Skriv ett program som räknar ut om ett visst tal är delbart med 2, 3 eller 5.
+Input variabler: nummer (nummer)
+Output: Ja eller nej beroende på om inputten är delbart med 2, 3 eller 5
+
+12. Skriv ett program som tar in text om och om igen tills man skriver in ’exit’.
+Input variabler: text (sträng) (tills text == ’exit’)
+Output: Ingen
+
+13. Skriv ett program som gör om engelska till morsekod och tvärtom.
+Input variabler: text (sträng)
+Output: Morsekod av inputten
