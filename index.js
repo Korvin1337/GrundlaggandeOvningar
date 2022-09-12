@@ -191,7 +191,7 @@ uppgift8 = async () => {
             let sidaA = Number(await rl.question("Välj sida A: "))
             let sidaB = Number(await rl.question("Välj sida B: "))
 
-            let area2 = 0.5 * sidaA * sidaB
+            let area2 = 0.5 * (sidaA * sidaB)
 
             console.log(area2)
     }
